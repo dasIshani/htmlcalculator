@@ -1,8 +1,9 @@
 const histval = document.getElementById("history-value");
+const  number =  document.getElementsByName("number")
 const otptval =  document.getElementById("output-value");
-function getOutput() {
-  return otptval.innerText;
-}
+// function getOutput() {
+//   return otptval.innerText;
+// }
 
 function reverseNumberFormat(number) {
   return Number(number.replace(/,/g, ""));
